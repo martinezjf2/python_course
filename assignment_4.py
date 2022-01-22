@@ -6,18 +6,14 @@
 
 cars = ("Acura", "Audi", "Buick", "Cadillac", "Dodge", "GMC", "Honda", "Hyundai", "Infiniti", "Kia", "Jeep", "Lexus", "Mercedes-Benz", "Nissan", "Ram", "Porsche", "Saturn", "Tesla", "Toyota", "Volkswagon", "Volvo", "Mazda", "Genesis", "BMW")
 
-
-
 # Display the contents in a single statement.
 
 print(cars)
-
 
 # Iterate through the collection displaying the output as a single complete sentence for each value.
 
 for i in cars:
     print(i)
-
 
 # Use the f-string format to control the output.
 
@@ -29,9 +25,7 @@ for index, car in enumerate(cars):
 
 # Repeat the output in reverse order using a different context string.
 
-
 for index, car in enumerate(reversed(cars), -1):
     print(f"The {car} is number {index} of your cars list")
-
 
 # Test your program until it works and the output looks nice.
